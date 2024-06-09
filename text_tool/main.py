@@ -32,5 +32,13 @@ def main():
         for line in sorted_lines:
             print(line, end='')
 
+    elif args.command == 'search':
+        if not args.keyword:
+            print('Keyword is required for search')
+            return
+        matching_lines = search_lines(args.file, args.keyword)
+        for line in matching_lines:
+            print(line, end='')
+
 if __name__ == '__main__':
     main()
