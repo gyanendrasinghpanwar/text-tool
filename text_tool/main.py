@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# main.py content
+
 import argparse
 
 def sort_lines(file_path, by):
