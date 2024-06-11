@@ -1,0 +1,8 @@
+# Ignore the zip file
+text-tool.pkg.zip
+
+# Ignore macOS metadata files
+.DS_Store
+
+# Ignore output directory
+output

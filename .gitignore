@@ -12,3 +12,5 @@ myenv/
 
 # Exclude generated metadata
 text_tool.egg-info/
+
+.DS_Store
